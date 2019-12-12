@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/metismenu/dist/metisMenu.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.slim.min.js",
+              "node_modules/metismenu/dist/metisMenu.min.js"
+            ]
           },
           "configurations": {
             "production": {
